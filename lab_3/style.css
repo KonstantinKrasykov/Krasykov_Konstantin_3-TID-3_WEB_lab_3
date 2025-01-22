@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #004f99, #88fbff);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  h1 {
+    color: #ecf0f1;
+  }
+  
+  .searchBar {
+    margin-bottom: 20px;
+  }
+  
+  .searchBar input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  }
+  
+  .searchBar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffa600;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .searchBar button:hover {
+    background-color: #2980b9;
+  }
+  
+  #cardsСontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #34495e;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    color: #000000;
+  }
+  
+  .card button {
+    background-color: #3279bb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Градиенты для типов погоды */
+  .card.clear {
+    background: #ffa600 ;
+    color: #ecf0f1;
+  }
+  
+  .card.clouds {
+    background: rgb(155, 155, 155);
+    color: #333;
+  }
+  
+  .card.rain {
+    background: rgb(60, 96, 150);
+    color: #ecf0f1;
+  }
+  
+  .card.snow {
+    background: whitesmoke;
+    color: #333;
+  }
+  
+  .card.thunderstorm {
+    background: rgb(68, 68, 68);
+    color: #ecf0f1;
+  }
+  
+  .card.drizzle {
+    background: rgb(134, 223, 203);
+    color: #333;
+  }
+  
+  .card.mist {
+    background: rgb(160, 160, 160);
+    color: #5c5c5c;
+  }
